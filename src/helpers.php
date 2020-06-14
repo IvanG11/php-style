@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace IvanG11;
+namespace Ivang11;
 
 use function array_merge;
 use PhpCsFixer\Config;

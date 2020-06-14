@@ -1,6 +1,7 @@
 {
   "name": "ivang11/php-style",
   "description": "PHP style rules for PHP-CS-Fixer",
+  "homepage": "https://github.com/IvanG11/php-style",
   "license": "MIT",
   "keywords": [
     "PHP",
@@ -9,10 +10,13 @@
   "authors": [
     {
       "name": "Iván García",
-      "email": "ivangb091@gmail.com"
+      "email": "ivangb091@gmail.com",
+      "homepage": "https://github.com/IvanG11",
+      "role": "Developer"
     }
   ],
   "require": {
+    "php": "^7.2",
     "friendsofphp/php-cs-fixer": "^2.8"
   },
   "autoload": {

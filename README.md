@@ -4,13 +4,13 @@ These are the rules applied across all my projects.
 
 ## Installation
 
-You can install using [composer](https://getcomposer.org/).
+You can install using [composer](https://getcomposer.org/) from [Packagist](https://packagist.org/packages/ivang11/php-style).
 
 ```
 $ composer require ivang11/php-style:dev-master --dev
 ```
 
-## Basic usage
+## Usage
 
 In your `.php_cs.dist` config file
 
@@ -48,7 +48,6 @@ Set the command in composer.json
     "format": [
         "vendor/bin/php-cs-fixer fix"
     ],
-    ...
 }
 ```
 
