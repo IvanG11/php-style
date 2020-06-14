@@ -7,7 +7,7 @@ These are the rules applied across all my projects.
 You can install using [composer](https://getcomposer.org/) from [Packagist](https://packagist.org/packages/ivang11/php-style).
 
 ```
-$ composer require ivang11/php-style:dev-master --dev
+$ composer require ivang11/php-style --dev
 ```
 
 ## Usage
