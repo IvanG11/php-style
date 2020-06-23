@@ -7,7 +7,7 @@ These are the rules applied across all my projects.
 You can install using [composer](https://getcomposer.org/) from [Packagist](https://packagist.org/packages/ivang11/php-style).
 
 ```
-$ composer require ivang11/php-style --dev
+composer require ivang11/php-style --dev
 ```
 
 ## Usage
@@ -53,9 +53,20 @@ Set the command in composer.json
 
 Execute the command
 
+```sh
+composer format
 ```
-$ composer format
+
+Execute on CI
+
+```sh
+./vendor/bin/php-cs-fixer fix --dry-run
 ```
+
+## Resources
+
+- Sharing PHP-CS-Fixer rules across projects and teams. [Laravel News Article](https://laravel-news.com/sharing-php-cs-fixer-rules-across-projects-and-teams)
+- Laravel Shift Recommended Coding Ruleset. [Gist](https://gist.github.com/laravel-shift/cab527923ed2a109dda047b97d53c200) - [Shift](https://laravelshift.com/)
 
 ## License
 
